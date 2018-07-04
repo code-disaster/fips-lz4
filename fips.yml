@@ -1,0 +1,12 @@
+#
+# fips-lz4
+#
+---
+imports:
+  fips-xxhash:
+    git: https://github.com/fips-libs/fips-xxhash.git
+exports:
+    header-dirs:
+      - lz4/lib
+    modules:
+      lz4: .
